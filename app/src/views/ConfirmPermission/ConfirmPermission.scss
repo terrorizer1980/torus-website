@@ -1,0 +1,17 @@
+.confirm-permission {
+  &.v-card {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .title-container {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .permission-list {
+    .v-icon {
+      margin-bottom: 3px;
+    }
+  }
+}
