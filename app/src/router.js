@@ -2,9 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import store from './store'
 import Popup from './views/Popup'
-import ProviderChange from './views/ProviderChange'
-import UserInfoRequest from './views/UserInfoRequest'
 import RedirectCatch from './views/RedirectCatch'
+import ConfirmPermission from './views/ConfirmPermission'
 import Login from './views/Login'
 import Confirm from './views/Confirm'
 import Wallet from './views/Wallet'
@@ -68,12 +67,12 @@ const router = new Router({
     {
       path: '/providerchange',
       name: 'providerchange',
-      component: ProviderChange
+      component: ConfirmPermission
     },
     {
       path: '/userinforequest',
       name: 'userInfoRequest',
-      component: UserInfoRequest
+      component: ConfirmPermission
     },
     {
       path: '/wallet',

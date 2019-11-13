@@ -126,7 +126,7 @@ export default {
     window.open(
       `${baseRoute}providerchange?instanceId=${torus.instanceId}`,
       '_blank',
-      'directories=0,titlebar=0,toolbar=0,status=0,location=0,menubar=0,height=450,width=600'
+      'directories=0,titlebar=0,toolbar=0,status=0,location=0,menubar=0,height=660,width=375'
     )
     bc.onmessage = async ev => {
       if (ev.data === 'popup-loaded') {
@@ -145,7 +145,7 @@ export default {
     window.open(
       `${baseRoute}userinforequest?instanceId=${torus.instanceId}`,
       '_blank',
-      'directories=0,titlebar=0,toolbar=0,status=0,location=0,menubar=0,height=450,width=600'
+      'directories=0,titlebar=0,toolbar=0,status=0,location=0,menubar=0,height=660,width=375'
     )
     bc.onmessage = async ev => {
       if (ev.data === 'popup-loaded') {
