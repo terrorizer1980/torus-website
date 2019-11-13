@@ -122,6 +122,12 @@ hr {
 }
 
 /* NEW UI */
+.confirm-container {
+  .v-card.confirm-message {
+    border: 0;
+  }
+}
+
 .v-card__text {
   padding: 12px;
 }
