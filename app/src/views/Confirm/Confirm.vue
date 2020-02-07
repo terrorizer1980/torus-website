@@ -471,11 +471,6 @@ export default {
         : this.totalUsdCost
       return `~ ${totalCost} ${this.selectedCurrency}`
     },
-    imageType() {
-      return this.transactionCategory === DEPLOY_CONTRACT_ACTION_KEY || this.transactionCategory === CONTRACT_INTERACTION_KEY
-        ? 'images/file-signature.svg'
-        : 'images/user.svg'
-    },
     getCurrencyMultiplier() {
       const { selectedCurrency, currencyData } = this.$store.state || {}
       const currencyMultiplierNum = selectedCurrency !== 'ETH' ? currencyData[selectedCurrency.toLowerCase()] || 1 : 1
