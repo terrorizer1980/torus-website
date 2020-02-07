@@ -1,9 +1,42 @@
 <template>
-  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path
-      fill="currentColor"
-      d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 20C7.59 20 4 16.41 4 12S7.59 4 
-      12 4 20 7.59 20 12 16.41 20 12 20M16.59 7.58L10 14.17L7.41 11.59L6 13L10 17L18 9L16.59 7.58Z"
-    />
+  <svg
+    version="1.1"
+    id="Layer_1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    x="0px"
+    y="0px"
+    viewBox="0 0 20 20"
+    style="enable-background:new 0 0 20 20;"
+    xml:space="preserve"
+  >
+    <g>
+      <g transform="translate(-220.000000, -411.000000)">
+        <g transform="translate(218.000000, 409.000000)">
+          <rect class="st0" width="24" height="24" />
+          <path
+            stroke="currentColor"
+            class="st1"
+            d="M13.1,21h-2.2C6.5,21,3,17.5,3,13.1v-2.2C3,6.5,6.5,3,10.9,3h2.2c4.3,0,7.9,3.5,7.9,7.9v2.2
+				C21,17.5,17.5,21,13.1,21z"
+          />
+          <polyline stroke="currentColor" class="st1" points="8,12 11,15 16,9" />
+        </g>
+      </g>
+    </g>
   </svg>
 </template>
+
+<style lang="stylus" scoped>
+.st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill-opacity: 0;
+}
+.st1 {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+</style>

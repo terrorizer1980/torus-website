@@ -1,6 +1,6 @@
 <template>
   <v-alert :value="alertShow" tile class="ma-0 save-alert caption text-center" :type="alertType" text dense>
-    <v-icon :class="`${alertType}--text`">
+    <v-icon :class="`${alertType}--text`" small>
       {{ alertType === 'success' ? '$vuetify.icons.check_circle' : '$vuetify.icons.close_circle' }}
     </v-icon>
     {{ alertText }}

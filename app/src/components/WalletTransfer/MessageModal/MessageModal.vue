@@ -5,7 +5,7 @@
         <v-flex xs12 px-4>
           <img @click="onCancel" height="6px" width="6px" class="close-icon" :src="require('../../../../public/img/icons/close.svg')" />
 
-          <img v-if="modalType" height="87px" width="87px" :src="require('../../../../public/img/icons/check-circle-white.svg')" />
+          <v-icon class="white--text" v-if="modalType" style="width: 87px; height: 87px; opacity: 1">$vuetify.icons.check_circle</v-icon>
 
           <img v-if="!modalType" height="87px" width="87px" :src="require('../../../../public/img/icons/error-circle.svg')" />
         </v-flex>

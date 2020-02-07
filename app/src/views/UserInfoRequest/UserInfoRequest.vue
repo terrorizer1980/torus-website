@@ -27,7 +27,7 @@
           <v-list class="note-list">
             <v-list-item class="pa-0">
               <v-list-item-icon class="mr-1">
-                <img :src="require(`../../../public/img/icons/check-circle-primary.svg`)" width="12" />
+                <v-icon size="12" class="primary--text">$vuetify.icons.check_circle</v-icon>
               </v-list-item-icon>
               <v-list-item-content class="pa-1">
                 <div class="caption text_2--text">{{ t('dappInfo.toAccessGoogle') }}</div>
@@ -35,7 +35,7 @@
             </v-list-item>
             <v-list-item class="pa-0" v-if="message !== ''">
               <v-list-item-icon class="mr-1">
-                <img :src="require(`../../../public/img/icons/check-circle-primary.svg`)" width="12" />
+                <v-icon size="12" class="primary--text">$vuetify.icons.check_circle</v-icon>
               </v-list-item-icon>
               <v-list-item-content class="pa-1">
                 <div class="caption text_2--text">{{ message }}</div>
